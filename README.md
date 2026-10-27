@@ -67,16 +67,7 @@ Khi hoàn thành:
 
 ## 🖼️ 5. Lưu sơ đồ và tài liệu — DOCS
 
-Cấu trúc gợi ý:
 
-```text
-hardware-security-accelerator/
-├── rtl/       # Code Verilog/SystemVerilog
-├── tb/        # Testbench
-├── docs/      # Sơ đồ, ảnh, báo cáo
-├── README.md  # Giới thiệu project
-└── .gitignore # Bỏ qua file không cần lưu
-```
 
 Lưu các file như `.drawio`, `.png`, `.svg`, `.pdf`, `.docx`.
 
