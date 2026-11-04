@@ -1,0 +1,23 @@
+// Compile order (packages first). Paths relative to rtl/.
+core/mlkem_pkg.sv
+keccak/keccak_pkg.sv
+control/mlkem_prog_pkg.sv
+arithmetic/mod_arith.sv
+arithmetic/delay.sv
+arithmetic/bf_ntt.sv
+arithmetic/bf_intt.sv
+arithmetic/bf_pwm.sv
+arithmetic/bf_addsub.sv
+arithmetic/butterfly_core.sv
+arithmetic/poly_alu.sv
+memory/zeta_rom.sv
+memory/poly_ram.sv
+memory/io_buffer.sv
+keccak/sponge.sv
+sampling/sampler.sv
+codec/codec.sv
+control/bufops.sv
+control/mlkem_ctrl.sv
+core/mlkem_core.sv
+interface/mlkem_axi_top.sv
+interface/mlkem_axi_wrapper.v
